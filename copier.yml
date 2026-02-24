@@ -1,0 +1,20 @@
+_answers_file: .copier-answers.yml
+
+name:
+  type: str
+  help: Name of the data product…
+  placeholder: name
+title:
+  type: str
+  help: Title of the data product…
+  placeholder: Name
+description:
+  type: str
+  help: Describe what the data product is about…
+  placeholder: Short paragraph or sentence describing the scope or context of this model.
+exchange_format:
+  type: str
+  help: The format of the data that conforms to the schema
+  choices:
+    - JSON
+    - JSON-LD
