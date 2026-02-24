@@ -14,7 +14,7 @@ prefixes:
   unit: http://qudt.org/vocab/unit/
 annotations:
   model_uri: https://modellen.netbeheernederland.nl/{{ name }}
-  exchange_format: {{ exchange_format }}
+  exchange_format: {{ "application/ld+json" if exchange_format == "JSON-LD" else "application/json" }}
   model_type: data-product
 types: {}
 enums: {}
