@@ -18,3 +18,9 @@ exchange_format:
   choices:
     - JSON
     - JSON-LD
+git_protocol:
+  type: str
+  help: Communication protocol to use with GitHub
+  choices:
+    - SSH
+    - HTTPS
